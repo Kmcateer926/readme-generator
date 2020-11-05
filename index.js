@@ -1,19 +1,15 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const util = require("util");
-// const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown.js");
-
-// const writeFileAsync = util.promisify(fs.writeFile);
-
-const markDown = "demo/README-demo.md";
 // array of questions for user
 const questions = [
+    // asks user title
   {
     type: "input",
     name: "title",
     message: "What is your title of your project?",
   },
+//   asks for description
   {
     type: "input",
     name: "description",
@@ -76,25 +72,18 @@ const questions = [
     message: "Which license would you like to use?",
     choices: [
       "MIT",
-      "Mozilla Public License",
-      "Apache License",
-      "GNU AGPLv3",
-      "GPL",
     ],
   },
 ];
-
+// prompts users for questions
 inquirer.prompt(questions)
-
+// writes user input into console
     .then(function (data) {
       const fileName = "newREADME.md";
       console.log(data);
       writeToFile(fileName, data);
     });
-
-
-
-
+// adds information to readme file based on user input
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), null, err => {
     if (err) {
@@ -102,45 +91,4 @@ function writeToFile(fileName, data) {
     }
     console.log("Success");
   });
-}
-// .then(function (data) {
-//   console.log(data);
-//   writeMarkdown(markDown, Data);
-// });
-
-// function to write README file
-// function writeMarkdown(markDown, data) {
-//   fs.writeFile(markDown, generateMarkdown(data), null, function (err) {
-//     if (err) {
-//       return console.log(err);
-//     }
-//     console.log("successfully wrote README.md");
-//   });
-// }
-
-// function writeFile(fileName, data) {
-//   console.log("indside writefile", data);
-//   //here is where the logic is placed - detailed steps the function will make
-//   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-// }
-
-// // const writeFileAsync = util.promisify(writeToFile);
-
-// // prompUser();
-
-// // function to initialize program
-// function init() {
-//   inquirer
-//     .prompt(questions)
-
-//     .then((data) => {
-//       console.log("inside init", data);
-//       //   function to write README file
-//       //   writeFile("README.md", generateMarkdown({ ...responses }));
-//       writeFile("README.md", generateMarkdown(data));
-//       console.log("after writefile");
-//     });
-// }
-
-// // function call to initialize program
-// init();
+};

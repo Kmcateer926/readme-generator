@@ -1,5 +1,5 @@
-### lskdjf
-  ![badge](https://img.shields.io/badge/MIT-License-<color>)
+### odifj
+  ![badge](https://img.shields.io/badge/Mozilla%20Public%20License-License-<color>)
   Table of Contents
   * [Description](#description)
   * [Author](#author)
@@ -16,34 +16,34 @@
   * [Questions](#questions)
   
   ### Title
-  lskdjf
+  odifj
   ### Description
-  sldkfj
+  sodfih
   ### Author
-  lskdfj
+  osdfih
   ### Test Instructions
-  lsdkhf
+  soifh
   ### Installation
-  lskdfj
+  odsifh
   ### Usage
-  skdfj
+  sodifh
   ### Technology
-  lsdkf
+  osdifh
   ### Url
-  lskdf
+  osidfh
   ### Contributors
-  lskdjf
+  osdifh
    ### Github 
-  lsdkfj
+  osdfih
   ### Email
-  ldsfkh
+  osdifh
   ### Phone
-  lskdf
+  osdifh
   ### License
-  ![badge](https://img.shields.io/badge/MIT-License-<color>)
-  MIT
+  ![badge](https://img.shields.io/badge/Mozilla%20Public%20License-License-<color>)
+  Mozilla Public License
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  © 2020 lskdfj.  All Rights Reserved.
+  © 2020 osdfih.  All Rights Reserved.
   ### Questions
-  For additional questions, reach me at ldsfkh lskdf
+  For additional questions, reach me at osdifh osdifh
