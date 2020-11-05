@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
-const path = require("path");
+// const util = require("util");
+// const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // const writeFileAsync = util.promisify(fs.writeFile);
@@ -87,7 +87,7 @@ const questions = [
 inquirer.prompt(questions)
 
     .then(function (data) {
-      const fileName = "testREADME.md";
+      const fileName = "newREADME.md";
       console.log(data);
       writeToFile(fileName, data);
     });
@@ -96,11 +96,11 @@ inquirer.prompt(questions)
 
 
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, generateMarkdown(data), null, function (err) {
+  fs.writeFile(fileName, generateMarkdown(data), null, err => {
     if (err) {
       return console.log(err);
     }
-    console.log("DONE");
+    console.log("Success");
   });
 }
 // .then(function (data) {
