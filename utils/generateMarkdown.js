@@ -1,9 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `### ${data.title}
-  ![badge](https://img.shields.io/badge/${encodeURI(
-    data.license
-  )}-License-<color>)
   Table of Contents
   * [Description](#description)
   * [Author](#author)

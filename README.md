@@ -1,5 +1,4 @@
 ### readme-generator
-  ![badge](https://img.shields.io/badge/MIT-License-<color>)
   Table of Contents
   * [Description](#description)
   * [Author](#author)
