@@ -1,6 +1,4 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `### ${data.title}
+### slkfj
   Table of Contents
   * [Description](#description)
   * [Author](#author)
@@ -17,40 +15,34 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ### Title
-  ${data.title}
+  slkfj
   ### Description
-  ${data.description}
+  sldkfj
   ### Author
-  ${data.author}
+  sldkfj
   ### Test Instructions
-  ${data.testInstructions}
+  lsdkfj
   ### Installation
-  ${data.install}
+  lksdjf
   ### Usage
-  ${data.usage}
+  lskdfj
   ### Technology
-  ${data.technology}
+  lskdfj
   ### Url
-  ${data.url}
+  lskfdj
   ### Contributors
-  ${data.contributors}
+  lkdfsj
    ### Github 
-  ${data.github}
+  lksfdj
   ### Email
-  ${data.email}
+  lkfsdj
   ### Phone
-  ${data.phone}
+  fsdkj
   ### License
-  ![badge](https://img.shields.io/badge/${encodeURI(
-    data.license
-  )}-License-<color>)
-  ${data.license}
+  ![badge](https://img.shields.io/badge/MIT-License-<color>)
+  MIT
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  © 2020 ${data.author}.  All Rights Reserved.
+  © 2020 sldkfj.  All Rights Reserved.
   ### Questions
-  For additional questions, contact me at ${data.email} ${data.phone}
-`;
-}
-
-module.exports = generateMarkdown;
+  For additional questions, contact me at lkfsdj fsdkj
