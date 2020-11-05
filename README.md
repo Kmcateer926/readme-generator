@@ -23,13 +23,13 @@
   ### Test Instructions
   
   ### Installation
-  got to my readme-generator repository and copy and paste code, https://github.com/Kmcateer926/readme-generator
+  go to my readme-generator repository and copy and paste code, https://github.com/Kmcateer926/readme-generator
   ### Usage
   run the application by typing 'node index.js', you can change the readme file name on line 92 and changing the name.  once you type node index.js you will be prompted with a series of questions. answer the questions.
   ### Technology
   node, javaScript, es6
   ### Url
-  https://github.com/Kmcateer926/readme-generator
+  https://kmcateer926.github.io/readme-generator/
   ### Contributors
   Kevin McAteer, Beth Preston, Estefania Lupo
    ### Github 
