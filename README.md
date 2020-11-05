@@ -6,9 +6,9 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Technology](#technology)
-  * [Github Deployed Site](#homepage)
+  * [URL](#homepage)
   * [Contributors](#contributors)
-  * [Github Repository](#githubRepo)
+  * [Github](#github)
   * [Email](#email)
   * [PhoneNumber](#phoneNumber)
   * [License](#license)
@@ -25,10 +25,10 @@
   ### Installation
   go to my readme-generator repository and copy and paste code, https://github.com/Kmcateer926/readme-generator
   ### Usage
-  run the application by typing 'node index.js', you can change the readme file name on line 92 and changing the name.  once you type node index.js you will be prompted with a series of questions. answer the questions.
+   run the application by typing 'node index.js', you can change the readme file name on line 92 and changing the name.  once you type node index.js you will be prompted with a series of questions. answer the questions.
   ### Technology
   node, javaScript, es6
-  ### Url
+  ### URL
   https://kmcateer926.github.io/readme-generator/
   ### Contributors
   Kevin McAteer, Beth Preston, Estefania Lupo
@@ -45,4 +45,4 @@
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   © 2020 Kevin.  All Rights Reserved.
   ### Questions
-  For additional questions, reach me at kmcateer926@gmail.com 706-867-5611
+  For additional questions, contact me at kmcateer926@gmail.com 706-867-5611

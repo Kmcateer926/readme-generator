@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   ${data.usage}
   ### Technology
   ${data.technology}
-  ### Url
+  ### URL
   ${data.url}
   ### Contributors
   ${data.contributors}
