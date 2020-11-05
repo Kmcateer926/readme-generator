@@ -89,7 +89,7 @@ const questions = [
 inquirer.prompt(questions)
 // writes user input into console
     .then(function (data) {
-      const fileName = "README.md";
+      const fileName = "demo3README.md";
       console.log(data);
       writeToFile(fileName, data);
     });
